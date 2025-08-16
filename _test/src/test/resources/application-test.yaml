@@ -1,0 +1,6 @@
+eclipselink:
+  ddl-generation: create-or-extend
+  weaving: static
+
+hibernate:
+  ddl-auto: create-drop

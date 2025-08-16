@@ -1,0 +1,10 @@
+wiredi:
+  check-processors: false
+  jpa:
+    entity-manager-factory:
+      maintain: false
+    datasource:
+      jdbc-url: jdbc:postgresql://localhost:5332/postgres
+      username: postgres
+      password: postgres
+      driver-class: org.postgresql.Driver

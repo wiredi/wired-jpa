@@ -1,0 +1,6 @@
+wiredi.check-processors: false
+
+hikari.jdbcUrl: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
+hikari.username: sa
+hikari.password:
+hikari.driverClass: org.h2.Driver

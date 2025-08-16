@@ -1,0 +1,10 @@
+wiredi.check-processors: false
+wiredi.startup.print-diagnostics: true
+
+eclipselink:
+  ddl-generation: drop-and-create
+  weaving: static
+
+compiler:
+  logging:
+    level: DEBUG
